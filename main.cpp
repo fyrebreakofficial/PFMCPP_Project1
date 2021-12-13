@@ -15,6 +15,16 @@ I will request a change be made to one of your 10 nouns for the sole purpose of 
     avoid choosing nouns that have things done TO them.
     If your noun consists of multiple words, use camelCaseToNameIt.
  
+  car - rollForward, consumeGas, wipeWindow
+  snake - rollOver, eatMouse, wrap
+  cow - moo, dance, jump
+  squid - squiggle, emitInk, poop
+  arm - bend, punch, grab
+  blackCat - talk, meow, levitate
+  helicopterPilot - doA360, fireRocket, jettison
+  dog - doA360, poopAfterDoingA360, barkingWhilePoopingIn360
+  spider - spinWeb, eatBee, climbTree
+
  2) for each of the 10 nouns, write out 3 actions it might perform, in plain english.
     a) AVOID state-checking actions, like "Car has a horn".  i.e.
         car.hasHorn()
@@ -32,7 +42,6 @@ I will request a change be made to one of your 10 nouns for the sole purpose of 
             other actions that would work:
                 action: consume electricity
                 action: burn out and destroy filament.
-
         
  3) write out how you'd call that action in pseudo code, in the space after the plain-english action
  
