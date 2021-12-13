@@ -15,16 +15,6 @@ I will request a change be made to one of your 10 nouns for the sole purpose of 
     avoid choosing nouns that have things done TO them.
     If your noun consists of multiple words, use camelCaseToNameIt.
  
-  car - rollForward, consumeGas, wipeWindow
-  snake - rollOver, eatMouse, wrap
-  cow - moo, dance, jump
-  squid - squiggle, emitInk, poop
-  arm - bend, punch, grab
-  blackCat - talk, meow, levitate
-  helicopterPilot - doA360, fireRocket, jettison
-  dog - doA360, poopAfterDoingA360, barkingWhilePoopingIn360
-  spider - spinWeb, eatBee, climbTree
-
  2) for each of the 10 nouns, write out 3 actions it might perform, in plain english.
     a) AVOID state-checking actions, like "Car has a horn".  i.e.
         car.hasHorn()
@@ -61,36 +51,42 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:       car
+//  action 1:   the car rolls forward
+car.rollForward();
+//  action 2:   the car consumes gas
+car.consumeGas();
+//  action 3:   the car wipes its own windows with wipers
+car.wipeWindow();
 
-//  action 2:
-
-//  action 3:
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:       snake
+//  action 1:   the snake rolls over
+snake.rollOver();
+//  action 2:   the snake eats a mouse
+snake.eatMouse();
+//  action 3:   the snake wraps around an object
+snake.wrapObject();
 
-//  action 2:
-
-//  action 3:
 
 //  3)
-//  Noun:
-//  action 1:
+//  Noun:       pikachu
+//  action 1:   pikachu says something
+pikachu.sayWord();
+//  action 2:   pikachu goes to the restroom
+pikachu.goToRestroom();
+//  action 3:   pikachu drinks water
+pikachu.drinkWater();
 
-//  action 2:
-
-//  action 3:
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       bunny
+//  action 1:   bunny does a 360
+bunny.do360();
+//  action 2:   bunny attacks
+bunny.attack();
+//  action 3:   bunny 
 
 //  5)
 //  Noun:
