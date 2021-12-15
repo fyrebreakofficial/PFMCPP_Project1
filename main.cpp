@@ -86,56 +86,67 @@ pikachu.drinkWater();
 bunny.do360();
 //  action 2:   bunny attacks
 bunny.attack();
-//  action 3:   bunny 
+//  action 3:   bunny ground attacks from above using missiles fired from a helicopter
+bunny.helicopterAttackMissile
 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       computer mouse
+//  action 1:   mouse sends click signal to computer
+computerMouse.sendClick();
+//  action 2:   sends scroll signal
+computerMouse.sendScroll();
+//  action 3:   mouse depletes battery
+computerMouse.depleteBattery();
 
-//  action 2:
-
-//  action 3:
 
 //  6)
-//  Noun:
-//  action 1:
+//  Noun:       dog
+//  action 1:   the dog barks
+dog.bark();
+//  action 2:   the dog eats 
+dog.eat();
+//  action 3:   the dog flies
+dog.fly();
 
-//  action 2:
-
-//  action 3:
 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun:       cat
+//  action 1:   the cat drives a car
+cat.driveCar();
+//  action 2:   the cat drinks milk
+cat.milk();
+//  action 3:   the cat googles something
+cat.google();
 
-//  action 2:
-
-//  action 3:
 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun:       mouse
+//  action 1:   the mouse jumps
+mouse.jump();
+//  action 2:   the mouse says hi
+mouse.sayHi();
+//  action 3:   the mouse thinks
+mouse.think();
 
-//  action 2:
-
-//  action 3:
 
 //  9)
-//  Noun:
-//  action 1:
+//  Noun:       water
+//  action 1:   water fills a container
+water.fillContainer();
+//  action 2:   water evaporates
+water.evaporate();
+//  action 3:   water rains from the sky
+water.rainFromSky();
 
-//  action 2:
-
-//  action 3:
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:       fire
+//  action 1:   fire spreads
+fire.spread();
+//  action 2:   fire flies across the air manipulated by magic
+fire.magicFly();
+//  action 3:   fire launches out of a gun
+fire.gunLaunch();
 
 
 #endif
