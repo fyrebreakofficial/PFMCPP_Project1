@@ -87,7 +87,7 @@ bunny.do360();
 //  action 2:   bunny attacks
 bunny.attack();
 //  action 3:   bunny ground attacks from above using missiles fired from a helicopter
-bunny.helicopterAttackMissile
+bunny.helicopterAttackMissile();
 
 //  5)
 //  Noun:       computer mouse
@@ -120,13 +120,13 @@ cat.google();
 
 
 //  8)
-//  Noun:       mouse
-//  action 1:   the mouse jumps
-mouse.jump();
-//  action 2:   the mouse says hi
-mouse.sayHi();
-//  action 3:   the mouse thinks
-mouse.think();
+//  Noun:       whiteMouse
+//  action 1:   the mouse jumps forward
+whiteMouse.jumpForward();
+//  action 2:   the mouse says hi to owner
+whiteMouse.sayHiToOwner();
+//  action 3:   the mouse thinks about cheese
+whiteMouse.thinkAboutCheese();
 
 
 //  9)
